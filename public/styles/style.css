@@ -1,0 +1,468 @@
+html {
+    font-size: 14pt;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.a4_page {
+    border: 1px dotted #ccc;
+    height: 297mm;
+    width: 210mm;
+
+
+
+    margin: 0.5mm auto 0;
+    background-position-x: 5mm;
+    /*background-position-y: 5mm;*/
+}
+
+.center {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 84%;
+}
+
+.main_block {
+    /*background-image: none !important;*/
+    height: 100%;
+    width: 100%;
+    background-image: url('../bg/B1.jpg');
+    background-size: 210mm 297mm;
+
+    border: 0 dotted red;
+    position: relative;
+}
+
+.title_duplicate {
+    position: absolute;
+    top: 30mm;
+    right: 30mm;
+    font-size: 0.857rem;
+}
+
+.data_left_block,
+.data_right_block {
+    width: 119mm;
+    position: absolute;
+    top: 21mm;
+    bottom: 21mm;
+    border: 0 dotted #00137F;
+}
+
+.data_left_top_block {
+    width: 106mm;
+    margin: 0;
+}
+
+
+.data_left_block {
+    left: 11mm;
+}
+
+.data_right_block {
+    right: 23mm;
+}
+
+.title_diploma {
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 35px;
+}
+
+.data_left_block .title_diploma {
+    position: absolute;
+    top: 20mm;
+    padding: 0;
+    text-align: center;
+    width: 119mm;
+}
+
+.data_right_block .title_diploma {
+    position: absolute;
+    top: 20mm;
+    padding: 0;
+    text-align: center;
+    width: 119mm;
+}
+
+.number_left,
+.number_right {
+    padding: 0;
+    margin-top: 31mm;
+    margin-bottom: -5mm;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 107mm;
+    margin-left: 11mm;
+}
+
+.number_left_red,
+.number_right_red {
+    padding: 0;
+    margin-top: 37mm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.number_left_junior {
+    padding: 0;
+    margin-top: 34mm;
+    margin-bottom: -5mm;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 107mm;
+    margin-left: 11mm;
+}
+
+.number_right_junior {
+    padding: 0;
+    margin-top: 34mm;
+    margin-bottom: -5mm;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 107mm;
+    margin-left: 11mm;
+}
+
+.number_left_junior_red,
+.number_right_junior_red {
+    padding: 0;
+    margin-top: 39mm;
+    margin-bottom: -5mm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.number_left,
+.number_left_red,
+.number_left_junior,
+.number_left_junior_red {
+    border: 0 dotted #57007F;
+    text-align: center;
+    font-weight: bold;
+}
+
+.number_right,
+.number_right_red,
+.number_right_junior,
+.number_right_junior_red {
+    border: 0 dotted #37007F;
+    text-align: center;
+    font-weight: bold;
+}
+
+.name_left_block {
+    border: 0 dotted #7F0000;
+    text-align: center;
+    margin-top: 10mm;
+    font-weight: bold;
+    width: 107mm;
+    margin-left: 11mm;
+}
+
+.name_left_block p {
+    margin: 0;
+}
+
+.name_right_block {
+    border: 0 dotted #7F0000;
+    text-align: center;
+    margin-top: 10mm;
+    font-weight: bold;
+    width: 107mm;
+    margin-left: 11mm;
+}
+
+.name_right_block p {
+    margin: 0;
+}
+
+.year_university_block_left, .year_university_block_right {
+    /*margin-left: 15mm;*/
+    /*margin-top: 4mm;*/
+}
+
+.university_text_left, .university_text_right {
+    text-align: left;
+    margin-left: 15mm;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.university_left, .university_right {
+    text-align: left;
+    /*margin-left: 15mm;*/
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 100%;
+}
+
+.rector_left_block {
+    border: 0 dotted #404040;
+    /*margin-top: 14mm;*/
+    /*margin-left: 18mm;*/
+    display: block;
+    bottom: 12mm;
+    left: 42mm;
+    position: absolute;
+    text-align: left;
+}
+
+.rector_left_block_f {
+    border: 0 dotted #404040;
+    margin-top: 14mm;
+    margin-left: 15mm;
+    width: 94mm;
+}
+
+.rector_right_block {
+    border: 0 dotted #404040;
+    /*margin-top: 14mm;*/
+    /*margin-right: 18mm;*/
+    display: block;
+    bottom: 12mm;
+    left: 40mm;
+    position: absolute;
+    text-align: left;
+}
+
+.info_block_font_size {
+    font-size: 0.928rem;
+}
+
+.info_left_block,
+.info_right_block {
+    border: 0 dotted #007F0E;
+    text-align: center;
+    margin-top: 0;
+}
+
+.rector_date_block_font_size {
+    font-size: 0.857rem;
+}
+
+.date_right_block {
+    border: 0 dotted #7F6A00;
+    /*text-align: center;*/
+    /*margin-top: 25mm;*/
+    /*margin-right: 18mm;*/
+    display: block;
+    bottom: 5mm;
+    left: 40mm;
+    position: absolute;
+    text-align: left;
+}
+
+.note_bottom_block {
+    margin: 0;
+    border: 0 dotted #FF006E;
+    position: absolute;
+    bottom: 23mm;
+    width: 199mm;
+    left: 46mm;
+    right: 46mm;
+    text-align: center;
+    display: none;
+}
+
+.note_block_font_size {
+    font-size: 0.535rem;
+}
+
+.note_bottom_left_block {
+    border: 0 dotted #FF006E;
+    position: absolute;
+    bottom: -2mm;
+    margin-left: 16mm;
+    text-align: left;
+}
+
+.note_bottom_right_block {
+    border: 0 dotted #FF006E;
+    position: absolute;
+    bottom: -2mm;
+    margin-left: 32mm;
+    text-align: left;
+}
+
+.mp,
+.seal {
+    position: absolute;
+}
+
+.mp {
+    left: 124mm;
+    /*bottom: 51mm;42mm;*/
+    bottom: 30mm;
+}
+
+.seal {
+    /*bottom: 51mm;*/
+    bottom: 30mm;
+    left: 239mm; /*242mm;*/
+}
+
+.b {
+    font-weight: bold;
+}
+
+.br_qualification br {
+    content: "";
+}
+
+.br_student_row br {
+    content: "";
+}
+
+.br_one_row br {
+    content: "";
+}
+
+.br_one_row_right br {
+    content: "";
+}
+
+.year_right, .year_left {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.year_newleft {
+    display: block;
+    text-align: center;
+    /*margin-right: 65px;*/
+}
+
+.univer_newleft, .univer_newright {
+    display: block;
+    text-align: center;
+    /*margin-right: 65px;*/
+}
+
+.year_newright {
+    display: block;
+    text-align: center;
+}
+
+@media print {
+
+    html, body{
+        width: 21cm;
+        height: 29.7cm;
+        /*margin: -5mm -5mm 0 0;*/
+
+        /* change the margins as you want them to be. */
+    }
+
+    body {
+        /*padding: 9mm;*/
+        /*padding: 0 10mm;*/
+    }
+
+    @page {
+        margin: 0;
+    }
+
+    .a4_page {
+        width: 210mm;
+        height: 297mm;
+        /*width: 21cm;*/
+        /*height: 29.7cm;*/
+        border: 0;
+        /*margin-top: 17mm;*/
+        page-break-after: always;
+        /*padding: 5mm 25mm;*/
+    }
+
+    /*.main_block {*/
+    /*    margin: auto;*/
+    /*}*/
+
+    .settings_right_nav {
+        display: none;
+    }
+
+    .settings_left_nav {
+        display: none;
+    }
+
+    .files_nav {
+        display: none;
+    }
+
+    .settings_links,
+    .ss_button,
+    .f_button {
+        display: none;
+    }
+
+    /*html, body {*/
+    /*    !*width: 210mm;*!*/
+    /*    !*height: 297mm;*!*/
+    /*    */
+    /*    margin: 0;*/
+    /*}*/
+
+    /*@page {*/
+    /*    margin: 0;*/
+    /*}*/
+
+
+
+
+}
+
+
+.block {
+    padding-bottom: 5px;
+}
+
+.study-program-name {
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acredited-by-value {
+    text-align: center;
+    font-style: italic;
+}
+
+.specialty-name-block {
+    text-align: center;
+    font-style: italic;
+}
+
+.inductry-name-value {
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qualification-name-value {
+    text-align: center;
+    font-style: italic;
+}
+
+.additional-info-value {
+    text-align: center;
+    font-style: italic;
+}
+
+.simple {
+    height: auto;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
